@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AstralStorm</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+  <header>
+    <nav class="nav container">
+    <a class="nav__icon-link" href="#sectionTitle">
+        <img class="nav__astralstorm_icon"></img>
+    </a>
+    <a aria-expanded="false" role="button" href="#/" id="nav-btn" class="nav__toggleBtn">
+     <span class="nav__bar"></span>
+     <span class="nav__bar"></span>
+     <span class="nav__bar"></span>
+   </a>
+        <ul class="nav__ul">
+            <li class="nav__list"><a href="#sectionTitle">AstralStorm</a></li>
+            <li class="nav__list"><a href="#sectionTarget">Target</a></li>
+            <li class="nav__list"><a href="#sectionFlexibility">Flexibility</a></li>
+            <li class="nav__list"><a href="#sectionCrew">Crew</a></li>
+            <li class="nav__list"><a href="#sectionMission">Our Mission</a></li>
+            <li class="nav__list"><a href="#articleInfo">Info</a></li>
+        </ul>
+        <form>
+        <button formaction="#footer" class="nav__btn-contact">Contact Us</button>
+        </form>
+    </nav>
+</header>  
+<!--SECTION TITLE-->
+<main>
+    <section tabindex="0" aria-label="title" id ="sectionTitle" class="sectionTitle">
+        <div class="sectionTitle__container container">
+        <h1 id="sectionTitle__h1" class="sectionTitle__h1 sectionTitle__TextContainer">
+            <span class="sectionTitle__h1--Adventure">Adventures into the Unknown</span><br>
+            with<br>
+            <span class="sectionTitle__h1--AS">Astral Storm</span>
+        </h1>
+    </div>
+    </section>
+     <!--SECTION TARGET-->
+    <section tabindex="0" aria-label="target" id="sectionTarget" class="sectionTarget ">
+        <div class="sectionTarget__container container reveal">
+        <img loading ="lazy" class="sectionTarget__img" src="https://mytodayshoroscope.com/wp-content/uploads/2020/01/5c66d7fe2628980bc8786427.jpg" title="SiriusStar" alt="siriusStar">
+        <div class="sectionTarget__text-wrap">
+            <h2 id="sectionTarget__h2" class="sectionTarget__h2">Mission target</h2>
+        <p class="sectionTarget__p">The main target of our mission is  <span class="sectionTarget__SiriusStars sectionTarget__SiriusStars--System">system Sirius</span>. Which is the closest neighbourhood star, which is actually made from 2 twin stars,
+             <span class="sectionTarget__SiriusStars sectionTarget__SiriusStars--SiriusA">Sirius A</span> and <span class="sectionTarget__SiriusStars sectionTarget__SiriusStars--SiriusB">Sirius B.</span></p>
+            </div>
+        </div>
+        </section>
+        <!--SECTION FLEXIBILITY-->
+        <section tabindex="0" aria-label="flexibility" id="sectionFlexibility" class="sectionFlexibility">
+            <div class="sectionFlexibility__container container reveal">
+                <div class="sectionFlexibility__text-wrap">
+                <h2 id="sectionFlexibility__h2" class="sectionFlexibility__h2">Flexibility</h2>
+                <p class="sectionFlexibility__p">Our team is specially trained to have the best chance of survival in the extreme conditions of space.<br>
+                They have been involved in many <b>previous missions, of which majority were succesful.</b></p>
+                <hr class="sectionFlexibility__hr">
+                </div>
+                <img loading ="lazy" class="sectionFlexibility__img" src="https://www.hal3projects.com/wp-content/uploads/2013/07/Hal3-43.jpg" alt="inside-of-space-capsule.jpg">
+            </div>
+        </section>
+       <!--SECTION CREW-->
+        <section tabindex="0" aria-label="section_crew" id="sectionCrew" class="sectionCrew">
+            <div class="sectionCrew__container container reveal">
+            <div id="sectionCrew__button-wrap" class="sectionCrew__button-wrap reveal">
+                <h2 class="sectionCrew__h2">List of our<br>crew members</h2>
+                <button aria-label="previous_item"  id ="previous-item" class="sectionCrew__button sectionCrew__button--left" type="button">&lt;</button>
+                <button aria-label="next_item" id ="next-item" class="sectionCrew__button sectionCrew__button--right" type="button">&gt;</button>
+            </div>
+            <div id="sectionCrew__Card-container" class="sectionCrew__Card-container">
+                <!--Card 1-->
+                <div tabindex="0" class="sectionCrew__Card sectionCrew__Card--1">
+                    <img loading ="lazy" class="sectionCrew__ImageHolder sectionCrew__ImageHolder--1" src="../Images/Mare.jpg"  alt="Mare.jpg">
+                     <div class="sectionCrew__textHolder container">
+                         <h3 class="sectionCrew__h3 sectionCrew__h3--1">Marko K.</h3>
+                         <div class="sectionCrew__teamRole">Mission Leader</div>
+                         <p class="sectionCrew__mainText ">Veteran astronaut that has been leading humanity into the skys for the past 3 decades</p>
+                     </div>
+                </div>
+                    <!--Card 2-->
+                <div tabindex="0" class="sectionCrew__Card sectionCrew__Card--2">
+                    <img loading ="lazy" class="sectionCrew__ImageHolder sectionCrew__ImageHolder--2" src="../Images/Rastko_R..jpg" alt ="Rale.jpg">
+                     <div class="sectionCrew__textHolder container">
+                         <h3 class="sectionCrew__h3 sectionCrew__h3--2">Rastko R.</h3>
+                         <div class="sectionCrew__teamRole">Defense C.</div>
+                         <p class="sectionCrew__mainText "> One of the best special Ops units world has ever seen, completed many missions with flying colors</p>
+                     </div>
+                </div>
+                <!--Card 3-->
+                <div tabindex="0" class="sectionCrew__Card sectionCrew__Card--3">
+                    <img loading ="lazy" class="sectionCrew__ImageHolder sectionCrew__ImageHolder--3" src="../Images/Viktor_N..jpg" alt="Viktor.jpg">
+                     <div class="sectionCrew__textHolder container">
+                         <h3 class="sectionCrew__h3 sectionCrew__h3--3">Viktor N.</h3>
+                         <div class="sectionCrew__teamRole">Analysist</div>
+                         <p class="sectionCrew__mainText"> One of top brains of psyhological and physical science. Profound and calculative</p>            
+                     </div>
+                </div>
+                 <!--Card 4-->
+                <div tabindex="0" class="sectionCrew__Card sectionCrew__Card--4">
+                    <img loading ="lazy" class="sectionCrew__ImageHolder sectionCrew__ImageHolder--4" src="../Images/Biljana_J..jpg" alt ="Biljana.jpg">
+                     <div class="sectionCrew__textHolder">
+                         <h3 class="sectionCrew__h3 sectionCrew__h3--4">Biljana J.</h3>
+                         <div class="sectionCrew__teamRole">First aid team leader</div>
+                         <p class="sectionCrew__mainText container">"You will be better now then you ever were, before the accident.Deep knowledge of implants and tissue regeneration</p>
+                     </div>
+                </div>
+                 <!--Card 5-->
+                <div tabindex="0" class="sectionCrew__Card sectionCrew__Card--5">
+                    <img loading ="lazy" class="sectionCrew__ImageHolder sectionCrew__ImageHolder--5" src="../Images/Nikola_B..jpg" alt = "Bale.jpg">
+                     <div class="sectionCrew__textHolder">
+                         <h3 class="sectionCrew__h3 sectionCrew__h3--5">Nikola B.</h3>
+                         <div class="sectionCrew__teamRole">Pilot</div>
+                         <p class="sectionCrew__mainText container">Dart Vader of 21st century</p>
+                     </div>
+                </div>
+                 <!--Card 6-->
+                 <div tabindex="0" class="sectionCrew__Card sectionCrew__Card--6">
+                    <img loading ="lazy" class="sectionCrew__ImageHolder sectionCrew__ImageHolder--6" src="../Images/Nebojsa_V..jpg" alt ="Nebojsa.jpg">
+                     <div class="sectionCrew__textHolder">
+                         <h3 class="sectionCrew__h3 sectionCrew__h3--6">Nebojsa V.</h3>
+                         <div class="sectionCrew__teamRole">Ship Maintenance</div>
+                         <p class="sectionCrew__mainText container">If something ever goes wrong.This guy does fix it all!</p>
+                     </div>
+                </div>
+         </div>
+       </div>
+        </section>
+           <!--SECTION MISSION-->
+           <section tabindex="0" aria-label="our_mission" id="sectionMission" class="sectionMission">
+               <div class="sectionMission__container container reveal">
+                  <h2 class="sectionMission__h2"> Mission</h2>
+                   <div class="sectionMission__text-wrap">
+                       <p class="sectionMission__text selectionMission__text--1">
+                           Our mission this time is to try and reach the Sirius Star System<br>
+                           It is our biggest challenge to this date<br>
+                           and we are all very excited to embark on this interstelar flight!<br>
+                       </p>
+                       <p class="sectionMission__text selectionMission__text--2">
+                        We hope to not only reach the system and its planetoids,<br>
+                        but to perhaps find some kind of alien life as well.<br>
+                       </p>
+                       <p class="sectionMission__text selectionMission__text--3">
+                    Of course, we also need to prepare for the worst,<br>
+                    and maybe not so pleasant encounters;<br>
+                    and thus will bring some troops.
+                       </p>
+                   </div>
+               </div>
+           <!--Article INFO-->
+           </section>
+           <article tabindex="0" aria-label="Info" id="articleInfo" class="articleInfo">
+               <div class="articleInfo__container container reveal">
+                   <h2 class="articleInfo__h2">Stats</h2>
+                       <dl class="articleInfo__grid-container">
+                        <div class="articleInfo__grid-item articleInfo__grid-item--1">
+                           <dt>Mission Start</dt>
+                           <dd>2030</dd>
+                          </div>
+                        <div class="articleInfo__grid-item articleInfo__grid-item--2">
+                           <dt>Aprox Arrival time</dt>
+                           <dd>2050</dd>
+                           </div>
+                        <div class="articleInfo__grid-item articleInfo__grid-item--3">
+                           <dt>Budget</dt>
+                           <dd>40 Billion dollars</dd>
+                           </div>
+                        <div class="articleInfo__grid-item articleInfo__grid-item--4">
+                           <dt>Number of crew</dt>
+                           <dd>30</dd>
+                           </div>
+                        <div class="articleInfo__grid-item articleInfo__grid-item--5">
+                           <dt>Distance</dt>
+                           <dd>30 000 light years</dd>
+                           </div>
+                       </dl>
+               </div>
+            </article>
+        </main>
+             <!--Footer-->
+<footer tabindex="0" aria-label="footer" id="footer" class="footer">
+    <div class ="footer__container container">
+    <p class ="footer__contact"><i>@made by Marko Kovačević</i></p>
+    <ul class="footer__ul">
+        <li class="footer__list footer__list--item1"><a class="footer__link" href="#/">Crew</a></li>
+        <li class="footer__list footer__list--item2"><a class="footer__link" href="#/">Experience</a></li>
+        <li class="footer__list footer__list--item3"><a class="footer__link" href="#sectionTitle">AStorm</a></li>
+        <li class="footer__list footer__list--item4"><a class="footer__link" href="#/">Other Missions</a></li>
+        <li class="footer__list footer__list--item5"><a class="footer__link" href="#/">Contact</a></li>
+        <li class="footer__list footer__list--item6"><a class="footer__link" href="#/">2022</a></li>
+    </ul>
+</div>
+</footer>
+<script src="../JavaScript/HorizontalScrollingButtons.js"></script>
+<script src="../JavaScript/AppearOnScroll.js"></script>
+<script src="../JavaScript/ResponsiveNav.js"></script>
+</body>
+</html>
